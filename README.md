@@ -1,59 +1,77 @@
-💰 Expense Tracker
+# 💰 Expense Tracker
 
-An intuitive and user-friendly web application built using ASP.NET Core MVC that helps users manage their daily expenses, track income, and visualize their financial activities efficiently.
+[![.NET](https://img.shields.io/badge/.NET-9.0-blue?logo=dotnet)](https://dotnet.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
+[![UI](https://img.shields.io/badge/UI-Bootstrap-blueviolet)]()
 
-🚀 Features
+> A clean and intuitive **ASP.NET Core MVC** web application for tracking daily expenses, managing income, and visualizing financial activities — simple, fast, and modern.
 
-📊 Track Income and Expenses – Easily log transactions with descriptions, categories, and amounts.
+---
 
-🧾 Category Management – Organize your spending with editable categories.
+## ✨ Overview
 
-💡 Visual Insights – Summarized charts and statistics for better decision-making.
+**Expense Tracker** helps users stay on top of their personal finances with a beautiful and responsive interface.  
+It’s designed to be lightweight — running entirely in-memory or with a simple local setup — and doesn’t require SQL Server.
 
-🧠 In-Memory Data / Local Database – Simple to run without complex configuration.
+---
 
-🖥️ Responsive UI – Works seamlessly on desktop and mobile devices.
+## 🚀 Features
 
-🧩 Tech Stack
+- 📊 **Track Income & Expenses** – Add, edit, and view transactions with category and amount details.  
+- 🧾 **Category Management** – Organize your spending into clear, editable categories.  
+- 💡 **Visual Insights** – Charts and summaries for smarter budgeting decisions.  
+- ⚡ **Lightweight Setup** – No complex configuration or SQL database required.  
+- 🖥️ **Responsive UI** – Works smoothly across desktop and mobile devices.  
 
-Frontend: HTML5, CSS3, Bootstrap
+---
 
-Backend: ASP.NET Core MVC (.NET 9.0)
+## 🧩 Tech Stack
 
-Language: C#
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | HTML5, CSS3, Bootstrap |
+| **Backend** | ASP.NET Core MVC (.NET 9.0) |
+| **Language** | C# |
+| **Database** | In-memory / file-based (no SQL Server required) |
 
-Database: In-memory / file-based (no SQL Server required)
+---
 
-⚙️ Installation & Setup
-🧱 Prerequisites
+## ⚙️ Installation & Setup
 
-Make sure you have the following installed:
+### 🧱 Prerequisites
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/download)
+- [Git](https://git-scm.com/)
 
-.NET 9.0 SDK
-
-Git
-
-🪜 Steps
-# 1. Clone the repository
+### 🪜 Steps
+```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/ConnectedDEX/Expense-Tracker.git
 
-# 2. Navigate to the project folder
+# 2️⃣ Navigate to the project directory
 cd Expense-Tracker
 
-# 3. Restore dependencies
+# 3️⃣ Restore dependencies
 dotnet restore
 
-# 4. Build the project
+# 4️⃣ Build the project
 dotnet build
 
-# 5. Run the application
+# 5️⃣ Run the application
 dotnet run
+```
 
+---
 
-Once the server starts, open your browser and visit:
-👉 http://localhost:5000
+Once the app starts, open your browser and visit:
+```bash 
+http://localhost:5000
+```
+
+---
 
 📁 Project Structure
+```bash
 Expense-Tracker/
 ├── Controllers/
 ├── Models/
@@ -62,22 +80,26 @@ Expense-Tracker/
 ├── appsettings.json
 ├── Program.cs
 └── README.md
+```
 
-🧠 Future Enhancements
+---
 
-✅ Add authentication (user login/register)
 
-✅ Add graphical analytics dashboard
+🧠 Roadmap / Future Enhancements
+🔒 User Authentication (Login / Register)
+📈 Advanced analytics dashboard with charts
+📤 Export reports (PDF / Excel)
+🌙 Dark mode theme support
 
-✅ Export reports (PDF/Excel)
+---
 
-✅ Add dark mode theme support
+🧑‍💻 Author
 
-👨‍💻 Creator
+Created by: Chandan Mondal
+GitHub Username: ConnectedDEX
 
-Chandan Mondal
-GitHub: @ConnectedDEX
+---
 
 🪪 License
 
-This project is open-source and available under the MIT License.
+This project is free to use, modify, and distribute it.
