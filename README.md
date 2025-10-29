@@ -1,37 +1,39 @@
-# 💰 Expense Tracker
+💰 Expense Tracker
 
-An intuitive and user-friendly web application built using **ASP.NET Core MVC** that helps users manage their daily expenses, track income, and visualize their financial activities efficiently.
+An intuitive and user-friendly web application built using ASP.NET Core MVC that helps users manage their daily expenses, track income, and visualize their financial activities efficiently.
 
----
+🚀 Features
 
-## 🚀 Features
+📊 Track Income and Expenses – Easily log transactions with descriptions, categories, and amounts.
 
-- 📊 **Track Income and Expenses** – Easily log transactions with descriptions, categories, and amounts.  
-- 🧾 **Category Management** – Organize your spending with editable categories.  
-- 💡 **Visual Insights** – Summarized charts and statistics for better decision making.  
-- 🧠 **In-Memory Data / Local Database** – Simple to run without complex configuration.  
-- 🖥️ **Responsive UI** – Works on desktop and mobile devices seamlessly.  
+🧾 Category Management – Organize your spending with editable categories.
 
----
+💡 Visual Insights – Summarized charts and statistics for better decision-making.
 
-## 🧩 Tech Stack
+🧠 In-Memory Data / Local Database – Simple to run without complex configuration.
 
-- **Frontend:** HTML5, CSS3, Bootstrap  
-- **Backend:** ASP.NET Core MVC (.NET 9.0)  
-- **Language:** C#  
-- **Database:** In-memory / local file-based (no SQL Server required)  
+🖥️ Responsive UI – Works seamlessly on desktop and mobile devices.
 
----
+🧩 Tech Stack
 
-## ⚙️ Installation & Setup
+Frontend: HTML5, CSS3, Bootstrap
 
-### Prerequisites
+Backend: ASP.NET Core MVC (.NET 9.0)
+
+Language: C#
+
+Database: In-memory / file-based (no SQL Server required)
+
+⚙️ Installation & Setup
+🧱 Prerequisites
+
 Make sure you have the following installed:
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download)
-- Git
 
-### Steps
-```bash
+.NET 9.0 SDK
+
+Git
+
+🪜 Steps
 # 1. Clone the repository
 git clone https://github.com/ConnectedDEX/Expense-Tracker.git
 
@@ -49,8 +51,7 @@ dotnet run
 
 
 Once the server starts, open your browser and visit:
-http://localhost:5000
-
+👉 http://localhost:5000
 
 📁 Project Structure
 Expense-Tracker/
@@ -62,26 +63,21 @@ Expense-Tracker/
 ├── Program.cs
 └── README.md
 
-
 🧠 Future Enhancements
-
 
 ✅ Add authentication (user login/register)
 
-
 ✅ Add graphical analytics dashboard
-
 
 ✅ Export reports (PDF/Excel)
 
-
 ✅ Add dark mode theme support
 
-
-
 👨‍💻 Creator
+
 Chandan Mondal
 GitHub: @ConnectedDEX
 
 🪪 License
+
 This project is open-source and available under the MIT License.
